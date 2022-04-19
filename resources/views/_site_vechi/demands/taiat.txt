@@ -1,0 +1,25 @@
+
+                                    <div class="row">
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <p>Cotatii trimise: <span class="badge badge-secondary ">
+                                            {{ $demand->quotesNumber() }}    
+                                        </span></p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <p>Oras: <strong>{{ ucfirst($demand->city) }}</strong> </p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <p>Categorie: <strong>{{ $demand->firstCategory() }}</strong>  
+                                        </span></p>
+                                    </div>
+                                </div>
+        
+                                <div class="row mt-2">
+                                    <div class="col-lg-6 col-md-6">
+                                        <p>{{ $demand->showPublishDate() }}</p>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <a href="{{ route('demands.show', $demand) }}" class="btn btn-sm btn-primary">Vezi cerere</a>
+                                        <a href="#" class="btn btn-sm btn-light">Nu ma intereseaza</a>
+                                    </div>
+                                </div>

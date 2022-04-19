@@ -1,0 +1,179 @@
+[33mcommit ebf81a0e58c7785a3447b8646cb75ec3cf530f37[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Valentin Biciu <valibiciu@gmail.com>
+Date:   Mon Oct 26 18:28:14 2020 +0200
+
+    Added Timeline Messages Notifications. WOrks ok.
+
+[33mcommit e9cd8cd265bc4574403ba416f816b4648e5c42d6[m
+Author: Valentin Biciu <valibiciu@gmail.com>
+Date:   Mon Oct 5 19:43:41 2020 +0300
+
+    App before implementing Messages Notifications. Works ok.
+
+[33mcommit 7395f00b892412783385f07efd0e614f00fc0937[m
+Author: Valentin Biciu <valibiciu@gmail.com>
+Date:   Sat Oct 3 16:47:57 2020 +0300
+
+    App before TimelineAction Notification. Works ok.
+
+[33mcommit d8e0232e2d538054c7a46d68748a14cb7627a1b0[m
+Author: Valentin Biciu <valibiciu@gmail.com>
+Date:   Fri Oct 2 16:25:18 2020 +0300
+
+    App before adding norifications. Works ok.
+
+[33mcommit b6f878c271aed2104cdf32303b624c04e54dbee7[m
+Author: Valentin Biciu <valibiciu@gmail.com>
+Date:   Thu Oct 1 17:24:44 2020 +0300
+
+    The App before adding STATE and STATUS to Demand model. Works fine.
+
+[33mcommit 38a6f3cfc9e6f4165877287ed9622be07d0eee07[m
+Author: Valentin Biciu <valibiciu@gmail.com>
+Date:   Wed Sep 30 13:27:41 2020 +0300
+
+    App before Demand_Report. Works ok.
+
+[33mcommit cad71ba22181956f2eeeea4ac0b91e881be4db5b[m
+Author: Valentin Biciu <valibiciu@gmail.com>
+Date:   Sun Sep 13 21:22:40 2020 +0300
+
+    Work project implemented. User can create projects with images & categories. Works initially ok.
+
+[33mcommit a49d0923ee86391d632387f04af9c535d4e318fe[m
+Author: Valentin Biciu <valibiciu@gmail.com>
+Date:   Wed Sep 9 22:20:54 2020 +0300
+
+    Initial Work Projects of Users started. Initially ok. No photos here.
+
+[33mcommit b5a20c6179edad87c35a739ab6c4a5c13b84d649[m
+Author: Valentin Biciu <valibiciu@gmail.com>
+Date:   Fri Aug 21 20:59:56 2020 +0300
+
+    User has a COMPANY profile. User can activate PRO account. Demands served using RANGE also. + more tweaks.
+
+[33mcommit 40606e8bbbcfb679ce0d4ea6a6bd05afbe7e57c5[m
+Author: Valentin Biciu <valibiciu@gmail.com>
+Date:   Sat Aug 15 19:12:19 2020 +0300
+
+    Admin can BAN users (active / inactive). Inactive users can't use the platforme. Using middleware to check users status. Works ok.
+
+[33mcommit ffc16e4def6085c54507987f19c13b55853bf6c0[m
+Author: Valentin Biciu <valibiciu@gmail.com>
+Date:   Fri Aug 14 20:44:28 2020 +0300
+
+    Admin can edit users information. Not finished.
+
+[33mcommit 438e17095b68dd55449e15a635dd7548d27b4a87[m
+Author: Valentin Biciu <valibiciu@gmail.com>
+Date:   Mon Aug 3 20:11:49 2020 +0300
+
+    Payments from Stripe added. Commit before RefundDemand. Works ok.
+
+[33mcommit c002f4ed5a9b7fc88054bc0252fca658f8e09fa0[m
+Author: Valentin Biciu <valibiciu@gmail.com>
+Date:   Mon Jul 27 21:13:07 2020 +0300
+
+    Payment works, card can be saved for future used.
+
+[33mcommit 444c337dbd382277306f4b2824be9f8758748fce[m
+Author: Valentin Biciu <valibiciu@gmail.com>
+Date:   Mon Jul 27 16:21:05 2020 +0300
+
+    Installed Casier. Trying to make work Stripe Payments. Failed now.
+
+[33mcommit 250dacf50f774371fe05ccf4c0e3216f724c4523[m
+Author: Valentin Biciu <valibiciu@gmail.com>
+Date:   Sun Jul 26 12:50:54 2020 +0300
+
+    Client can Review Winner. (Started Reviews functionnality). Works ok.
+
+[33mcommit 146950bc9b821b240fdf65311602eb2f4e542d6e[m
+Author: Valentin Biciu <valibiciu@gmail.com>
+Date:   Sun Jul 26 00:26:19 2020 +0300
+
+    Prospects & Winner for Demand. Client & Professional can accept or refuse. Works ok, initially.
+
+[33mcommit d957dc64b5ecc0da787f013eb8229db9a96e2e3f[m
+Author: Valentin Biciu <valibiciu@gmail.com>
+Date:   Fri Jul 24 23:12:42 2020 +0300
+
+    Client can see Demands, can see Demand details (and PRO who bought the demand). Client can RELAUNCH demand (Status: 0, Increment offers +2). Works ok.
+
+[33mcommit 8e869218434c494ac877555a51ec41750ccfce95[m
+Author: Valentin Biciu <valibiciu@gmail.com>
+Date:   Thu Jul 23 18:36:27 2020 +0300
+
+    Client (demand owner) can add file and communicate with Professional. Client can delete message + associated file. Works ok.
+
+[33mcommit 0e89cf1b94fae7ac8c792c7c7f859c90010f47c2[m
+Author: Valentin Biciu <valibiciu@gmail.com>
+Date:   Wed Jul 22 22:57:10 2020 +0300
+
+    Professional can upload file for Quote (QuoteFile class added). Works ok. When delete Demand -> delete Quotes and Files associated.
+
+[33mcommit 5cf452ed0effb5160a108b41ad1dc26fc5a789e3[m
+Author: Valentin Biciu <valibiciu@gmail.com>
+Date:   Tue Jul 21 00:09:49 2020 +0300
+
+    Timeline section started.
+
+[33mcommit 1bc47fcc97cc84eec08469d49368f04ea0cc46ef[m
+Author: Valentin Biciu <valibiciu@gmail.com>
+Date:   Mon Jul 20 20:33:47 2020 +0300
+
+    Tickets functionallity addded. Works ok.
+
+[33mcommit ad12ee22773b38069c70e69fc1b5dbc15be7cb38[m
+Author: Valentin Biciu <valibiciu@gmail.com>
+Date:   Sun Jul 19 18:42:59 2020 +0300
+
+    Tickets functionallity. Initial working ok.
+
+[33mcommit 5dfebd22870afc52b8f962a86b2c43abff873f08[m
+Author: Valentin Biciu <valibiciu@gmail.com>
+Date:   Wed Jul 15 18:56:04 2020 +0300
+
+    Partially changed the theme. Works ok.
+
+[33mcommit c1e1872debef4a75a59ff978ef3a5a1d2dcd44a5[m
+Author: Valentin Biciu <valibiciu@gmail.com>
+Date:   Mon Jun 29 19:10:03 2020 +0300
+
+    Transactions evidence. User can see his transactions from card credit.
+
+[33mcommit 8579de2afd2df6d3a8807eedc079ba5615343fd1[m
+Author: Valentin Biciu <valibiciu@gmail.com>
+Date:   Sat Jun 27 16:27:55 2020 +0300
+
+    Get Demands by Geolocation and Interes Categories. Added Scout Extended + Algolia. Works ok.
+
+[33mcommit 2fe3e4b8c3e1e71f909d81f7c4b8e5425f03a097[m
+Author: Valentin Biciu <valibiciu@gmail.com>
+Date:   Fri Jun 26 23:35:45 2020 +0300
+
+    User can set location + attach categories of for demands. Works.
+
+[33mcommit 5522db748d48ad992a5ea65550ca4ba1f2082bc4[m
+Author: Valentin Biciu <valibiciu@gmail.com>
+Date:   Fri Jun 19 21:46:16 2020 +0300
+
+    User can become Professional (firma). Works. [Activare cont firma.]
+
+[33mcommit 04c082b674106c22708ab972c8e5de67cbdd2127[m
+Author: Valentin Biciu <valibiciu@gmail.com>
+Date:   Fri Jun 19 21:09:00 2020 +0300
+
+    User hasMany Demands Relationship added.
+
+[33mcommit 7ea26828db8e988f4e5303e4134553abdb1ad3ba[m
+Author: Valentin Biciu <valibiciu@gmail.com>
+Date:   Thu May 28 17:07:00 2020 +0300
+
+    Roles, Permissions, Profile added.
+
+[33mcommit 666d4fd553e879fab2d1876422eceffaf42988ac[m
+Author: Valentin Biciu <valibiciu@gmail.com>
+Date:   Mon May 25 20:48:39 2020 +0300
+
+    Initial - starting project
